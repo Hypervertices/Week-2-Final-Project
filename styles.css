@@ -613,6 +613,8 @@ Pricing
   margin: 4px 0;
 }
 
+
+
 .price__billed-monthly {
   font-size: 16px;
   font-weight: 600;
@@ -657,12 +659,30 @@ Pricing
   border-bottom: 2px solid #E2E8F0;
 }
 
+
+.business__top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  border-bottom: 2px solid #667EEA;
+}
+
 .price__mid {
   flex-direction: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px;
   border-bottom: 2px solid #E2E8F0;
+}
+.business__mid {
+  flex-direction: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px;
+  border-bottom: 2px solid #667EEA;
 }
 
 .price__btm {
@@ -675,6 +695,15 @@ Pricing
   
 }
 
+
+.business__btm {
+  padding: 58px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
 
 .bold__h4 {
   font-size: 20px;
@@ -702,7 +731,19 @@ Pricing
 
 }
 
+.business {
+  color: white;
+}
 
+.ghost__h4-bsn {
+  color: #E2E8F0;
+  font-size: 16px;
+  margin-top: 12px;
+}
+
+.pricing__business {
+  background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
 
 
 
