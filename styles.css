@@ -716,7 +716,7 @@ Pricing
 }
 
 
-.price__decortation {
+.price__decoration {
   width: 100%;
   max-width: 360px;
   height: 100%;
@@ -726,10 +726,12 @@ Pricing
 
 }
 
-.price__decoration--personal {
- background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 
+.price__decoration--personal {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
+
+
 
 .business {
   color: white;
