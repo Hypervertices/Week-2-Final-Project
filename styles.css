@@ -305,7 +305,7 @@ Quality
   font-weight: 700;
   color: rgba(100, 21, 255, 1);
   margin-bottom: 16px;
-  font-size: 16px;
+  font-size: large;
 }
 .quality__description {
   max-width: 576px;
@@ -382,6 +382,7 @@ Steps
   font-weight: 700;
   color: #6415ff;
   letter-spacing: 2px;
+  font: large;
 }
 
 .steps__features--headline {
@@ -457,6 +458,7 @@ Values
   font-weight: 700;
   color: #6415ff;
   letter-spacing: 2px;
+  font-size: large;
 }
 
 .values__header {
@@ -562,7 +564,7 @@ Pricing
   font-weight: 700;
   color: #6417ff;
   margin-bottom: 16px;
-
+  font-size: large;
 }
 
 
