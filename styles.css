@@ -753,6 +753,68 @@ Pricing
 }
 
 
+/*
+Testimonials
+*/
+
+#testimonials .row {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: space-between;
+}
+
+.testimonials__description  {
+  width: 50%;
+  padding-left: 32px;
+
+}
+
+.testimonials__description--top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.testimonials__tag {
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  color: #6417ff;
+  
+  font-size: large;
+}
+
+.testimonials__header {
+  font-size: 48px;
+  color: #243E63;
+  font-weight: 800px;
+  margin-bottom: 16px;
+}
+
+.testimonials__para {
+  font-size: 16px;
+  color: #7c8BA1;
+  font-weight: 500;
+  text-align: left;
+
+}
+
+.testimonials__rating {
+  color: #F6AD55;
+  margin: 40px 0 16px 0;
+}
+
+.testimonials__img--main {
+  width: 50%;
+  
+}
+
+.img__charlotte {
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+
+
+}
 
 
 
