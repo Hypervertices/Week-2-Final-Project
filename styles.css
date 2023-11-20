@@ -816,8 +816,44 @@ Testimonials
 
 }
 
+.testimonials__title--wrap {
+  display: flex;
+  margin-bottom: 16px;
+}
 
 
+.testimonals__btm--outer {
+  margin-top: 48px;
+  justify-content: space-between;
+}
+
+.testimonials__review--wrap {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials__para--btm {
+  color: #243e63;
+}
+
+.testimonals__review--text--wrap {
+margin-left: 12px;
+}
+
+.testimonals__btm--outer {
+  display: flex;
+}
+
+.testimonial__profile--text {
+  font-size: 20px;
+  color: #243E63;
+}
+
+.testimonial__review--position {
+
+  font-weight: 500;
+  color: #718096;
+}
 /*                              M E D I A                             */
 
 
