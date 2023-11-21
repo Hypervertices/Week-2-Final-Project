@@ -836,10 +836,12 @@ Testimonials
 }
 
 .arrow__wrap {
-  padding: 16px 16px;
+  padding: 16px;
   background-color: #edf2f7;
   border-radius: 50%;
-  margin: 0 12px;
+  margin:8px;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -1013,6 +1015,40 @@ Testimonials
   .values__point {
     width: 100%;
   }
+
+
+
+
+  #testimonials .row {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .testimonials__description {
+    align-items: center;
+    text-align: center;
+  }
+
+.testimonials__img--main {
+
+  width: 100%;
+  max-width: 516px;
+margin-bottom: 24px;
+}
+
+.testimonials__header {
+  font-size: 36px;
+  margin-top: 12px;
+}
+.testimonials__description {
+  width: 100%;
+  max-width: 516px;
+}
+
+.testimonials__title--wrap {
+ justify-content: center;
+}
+
 }
 
 /*
