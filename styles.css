@@ -839,16 +839,58 @@ Testimonials
   padding: 18px;
   background-color: #edf2f7;
   border-radius: 50%;
-  margin:8px;
+  margin: 8px;
   display: flex;
   justify-content: space-between;
 }
 
+.arrow {
+  color: #6415ff;
+}
 
-.arrow 
-  {
-    color: #6415FF
-  }
+
+
+
+
+
+/*
+Started
+*/
+
+#started .row {
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #6415FF;
+  padding: 96px;
+  border-radius: 8px;
+
+}
+
+.started__content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.started__btns {
+  display: flex;
+}
+
+.questions__statement {
+  color: #F7FAFC;
+  font-size: 30px;
+  width: 100%;
+  max-width: 480px;
+  line-height: 1.5;
+}
+
+
+
+
+
 
 /*                              M E D I A                             */
 
@@ -1016,9 +1058,6 @@ Testimonials
     width: 100%;
   }
 
-
-
-
   #testimonials .row {
     flex-direction: column-reverse;
     align-items: center;
@@ -1029,27 +1068,32 @@ Testimonials
     text-align: center;
   }
 
-.testimonials__img--main {
+  .testimonials__img--main {
+    width: 100%;
+    max-width: 516px;
+    margin-bottom: 24px;
+  }
 
-  width: 100%;
-  max-width: 516px;
-margin-bottom: 24px;
+  .testimonials__header {
+    font-size: 36px;
+    margin-top: 12px;
+  }
+  .testimonials__description {
+    width: 100%;
+    max-width: 516px;
+  }
+
+  .testimonials__title--wrap {
+    justify-content: center;
+  }
 }
 
-.testimonials__header {
-  font-size: 36px;
-  margin-top: 12px;
-}
-.testimonials__description {
-  width: 100%;
-  max-width: 516px;
-}
 
-.testimonials__title--wrap {
- justify-content: center;
-}
 
-}
+
+
+
+
 
 /*
 -------------------------------  Media 830px ----------------------------
