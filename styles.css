@@ -871,15 +871,18 @@ Started
 .started__content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 
 }
 
 
 .started__btns {
   display: flex;
+  align-items: center;
 }
 
-.questions__statement {
+.started__statement {
   color: #F7FAFC;
   font-size: 30px;
   width: 100%;
@@ -887,9 +890,25 @@ Started
   line-height: 1.5;
 }
 
+.questions__btn {
+  margin: 16px;
+  font-size: 16px;
+  padding: 20px 40px;
+  border-radius: 100px;
+  font-weight: 700;
+  color: #f7fafc;
+  background-color: #6415FF;
+ 
+}
 
+.get-started {
+  background-color: #F56565;
+  border: none;
+}
 
-
+.contact-us {
+  border: 1px solid #F7FAFC
+}
 
 
 /*                              M E D I A                             */
