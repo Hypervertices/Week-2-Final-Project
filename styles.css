@@ -848,42 +848,41 @@ Testimonials
   color: #6415ff;
 }
 
-
-
-
-
-
 /*
 Started
 */
 
 #started .row {
-
-  width: 100%;
-  max-width: 1200px;
+  display: flex;
   margin: 0 auto;
-  background-color: #6415FF;
+  background-color: #6415ff;
   padding: 96px;
   border-radius: 8px;
-
 }
 
 .started__content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
 }
-
 
 .started__btns {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  width: 50%;
+
+  margin: auto;
+}
+
+.statement-wrap {
+  width: 50%;
+  margin: auto;
 }
 
 .started__statement {
-  color: #F7FAFC;
+  color: #f7fafc;
   font-size: 30px;
   width: 100%;
   max-width: 480px;
@@ -897,19 +896,34 @@ Started
   border-radius: 100px;
   font-weight: 700;
   color: #f7fafc;
-  background-color: #6415FF;
- 
+  background-color: #6415ff;
 }
-
 .get-started {
-  background-color: #F56565;
+  background-color: #f56565;
   border: none;
 }
 
 .contact-us {
-  border: 1px solid #F7FAFC
+  border: 1px solid #f7fafc;
 }
 
+/*
+-------------------------------  Media 1150px ----------------------------
+*/
+
+@media (max-width: 1152px) {
+  .started__button-row {
+    display: flex;
+    flex-direction: column;
+    
+
+
+  }
+
+
+
+}
+  
 
 /*                              M E D I A                             */
 
@@ -973,7 +987,7 @@ Started
   .landing__customers--title {
     text-align: center;
     font-size: 14px;
-    :#a0aec0 ;
+    color: #a0aec0;
     font-weight: 700;
     letter-spacing: 0.05em;
   }
@@ -1008,6 +1022,15 @@ Started
   .price__decoration {
     width: 100%;
     max-width: 384px;
+  }
+
+  #started .row {
+    display: started__button-row;
+    flex-direction: column;
+  }
+
+  .started__button-row {
+    display: flex;
   }
 }
 
@@ -1105,14 +1128,12 @@ Started
   .testimonials__title--wrap {
     justify-content: center;
   }
+
+  .started__content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
-
-
-
-
-
-
 
 /*
 -------------------------------  Media 830px ----------------------------
