@@ -1027,11 +1027,34 @@ Started
   #started .row {
     display: started__button-row;
     flex-direction: column;
+    align-items: center;
   }
 
   .started__button-row {
+    width: 100%;
+    max-width: fit-content;
     display: flex;
+    flex-direction: row;
   }
+
+  .started__btns {
+    width: 100%;
+    margin: 24px;
+  }
+
+  .statement-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center
+  }
+
+ 
+
+
+
+
+
+
 }
 
 /*
