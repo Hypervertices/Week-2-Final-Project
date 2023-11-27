@@ -923,9 +923,29 @@ footer .row {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.footer__about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__about--links-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   
+  margin: 48px;
 }
+
+ .footer__links--list{
+  display: flex;
+  flex-direction: column;
+ }
+
 
 .footer__logo--section {
   display: flex;
@@ -937,7 +957,20 @@ footer .row {
   height: 32px;
 }
 
+.footer__copywrite--title {
+  font-size: 20px;
+  color: #F7FAFC;
+  font-weight: 800;
+  margin-left: 8px;
+}
 
+.footer__line {
+  width: 100%;
+  border: 2px solid;
+  color: rgb(116 44 255);
+  margin: 64px 0;  
+}
+  
 /*
 -------------------------------  Media 1150px ----------------------------
 */
